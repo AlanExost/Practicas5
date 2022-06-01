@@ -1,0 +1,98 @@
+nav{
+    display: flex; 
+    padding: lrem;
+    border-bottom: 1px solid; 
+}
+.logo{
+    width:50px;
+    padding-left:5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(41, 26, 26);
+}
+.carrito {
+    width:60px;
+    }
+.sesion{
+    width:80px;
+    }
+nav {
+    background-color: rgb(130, 198, 243);
+    display:flex;
+    padding: 2%;
+}
+.cont-logo{
+    width:50%;
+}
+
+.cont-cat {
+    margin-left: auto;
+    width: 100%;
+    padding-right: 10%;
+    text-align: right;
+}
+.cont-cat a{
+    padding-left: 25px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(17, 9, 9);
+}    
+.cont-cat img{
+    width: 30px;
+    vertical-align: middle;
+}
+.logo{
+    width:40px;
+}
+.portada{
+    background-image:url(https://hipermediaciones.files.wordpress.com/2016/07/libros.jpg);
+    width: 100%;
+    height: 400px;
+    color: rgb(5, 5, 5);
+    align-items: center;
+}
+.cont-letras{
+    background-color:rgba(242, 247, 244, 0.527);
+    height: 100%;
+    width: 70%;
+    margin-left: 5%;
+    margin-right: auto;
+    padding-right: 3%;
+}
+.cont-tit{
+    width: 100%;
+    justify-content: center;
+}
+.center{
+    padding-top: 40px;
+    padding-left: 65%;
+}
+.linea-1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+.linea-2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.linea-3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+}    
+.linea-4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.cont-a a:hover{
+    opacity: 50%;
+    transform: scale(110%);
+    page-break-after: right;
+}
